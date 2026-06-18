@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>شراء توقعات المباراة</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background-color: #f4f4f4; padding: 20px; }
+        .card { background: white; padding: 20px; border-radius: 10px; max-width: 400px; margin: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        input { width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        .btn { background: #25d366; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
+        img { max-width: 200px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>شراء توقع المباراة</h2>
+    <p>مباراة: هوريزونتي ضد جواسيرو</p>
+    <p>السعر: 20 USDT</p>
+    
+    <p>امسح الكود أدناه للتحويل:</p>
+    <img src="image.png" alt="QR Code"> <!-- هنا يتم إدراج صورة الكود الخاصة بك -->
+    
+    <p>عنوان المحفظة (TRC20):</p>
+    <input type="text" value="TNxAMRbSEaRNx2aqU3G8iqttYGkBZXKspL" readonly>
+    
+    <br>
+    <a href="https://wa.me/212772552302?text=مرحباً، لقد قمت بالدفع، هذا هو إثبات التحويل:" class="btn">إرسال إثبات الدفع عبر واتساب</a>
+</div>
+
+</body>
+</html>
